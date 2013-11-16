@@ -24,32 +24,32 @@ body {
 .bg1 {
     height: 100%;
     width: 100%;
-    background-image: url('img/voronzBG.jpg');
+    background-image: url('img/voronzBG_LQ.jpg');
 }
 
 .bg2 {
     height: 100%;
     width: 100%;
-    background: url('img/cloudBG.jpg');
+    background: url('img/cloudBG_LQ.jpg');
 }
 
 .bg3 {
     height: 100%;
     width: 100%;
-    background: url('img/kapooBG.jpg');
+    background: url('img/kapooBG_LQ.jpg');
 }
 
 .bg4 {
     height: 100%;
     width: 100%;
-    background: url('img/lostforeverBG.jpg');
+    background: url('img/lostforeverBG_LQ.jpg');
 }
 
 .bg5 {
     height: 100%;
     width: 100%;
     background-size: cover;
-    background: url('img/unscrutularBG.jpg');
+    background: url('img/unscrutularBG_LQ.jpg');
 }
 
 div.container	{
