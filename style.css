@@ -2,22 +2,24 @@ html, body {
 	padding: 0px;
 	margin: 0px;
 	height:100%;
-		}
+}
 
-	div.bg {
-	padding: 0px;
-	margin: 0px;
-	background: url('img/cloudBG.jpg');
-	background-size: cover;
-	height: 100%;
-	}
+div.bg {
+    background: url('img/cloudBG.jpg');
+    background-size: cover;
+    position: absolute;
+    height: 300px;
+    top: 0;
+    left: 0;
+}
 
-		div.container	{
-	width: 200px;
-	margin: 0 auto;
-	}
+div.container	{
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+}
 
-	.container img {
-	width: 200px;
-	margin-top:50%;
-	}
+.container img {
+    width: 200px;
+    margin-top:50%;
+}
