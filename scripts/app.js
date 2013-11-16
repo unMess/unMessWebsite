@@ -5,7 +5,11 @@ $( function() {
     console.log(winX);
     console.log(winY);
 
+    // $('.bg').each( function() {
+    //     $(this).fadeIn().fadeOut();
+    // });
     $('.bg').width(winX);
     $('.bg').height(winY);
-    $('.bg:first-child').fadeIn();
+
+//    $('.bg1').fadeIn().delay(2000).next('.bg').fadeIn();
 }); 
