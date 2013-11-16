@@ -4,13 +4,31 @@ html, body {
 	height:100%;
 }
 
-div.bg {
-    background: url('img/cloudBG.jpg');
+.bg {
     background-size: cover;
     position: absolute;
-    height: 300px;
     top: 0;
     left: 0;
+}
+
+.bg1 {
+    background: url('img/voronz.jpg');
+}
+
+.bg2 {
+    background: url('img/cloudBG.jpg');
+}
+
+.bg3 {
+    background: url('img/kapooBG.jpg');
+}
+
+.bg4 {
+    background: url('img/lostforeverBG.jpg');
+}
+
+.bg5 {
+    background: url('img/cloudBG.jpg');
 }
 
 div.container	{
@@ -33,9 +51,11 @@ div.container	{
 		height: 10px;
 		width: 10px;
 		border-radius: 5px;
-		background-color: rgb(255,255,255,.5);
+		background-color: rgba(255,255,255,.5);
 	}
 
 		.sliderButton:hover {
-			background-color: rgb(255,255,255,1);
+			background-color: rgba(255,255,255,1);
 		}
+
+		
