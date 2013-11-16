@@ -16,11 +16,11 @@ $( function() {
         var $thisBg = $backgrounds.eq(i);
 
         $buttons.removeClass('active');
-        $thisBg.fadeIn(2000);
+        $thisBg.fadeIn(2500);
 
         setTimeout( function(){
             $thisBg.fadeOut(2000, cycleBackgrounds);
-        }, 5000);
+        }, 10000);
 
         $buttons.eq(i).addClass('active');
 
