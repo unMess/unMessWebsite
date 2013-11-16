@@ -7,4 +7,6 @@ $( function() {
 
     $('.bg').width(winX);
     $('.bg').height(winY);
+
+		
 }); 

@@ -5,31 +5,57 @@ html, body {
 }
 
 .bg {
-    background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
 }
 
 .bg1 {
-    background: url('img/voronz.jpg');
+		height: 100%;
+		width: 100%;
+		background-size: contain;
+    background: url('img/voronzBG.jpg');
 }
 
-.bg2 {
+/*.bg2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+		height: 100%;
+		width: 100%;
+		background-size: contain;
     background: url('img/cloudBG.jpg');
 }
 
 .bg3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+		height: 100%;
+		width: 100%;
+		background-size: cover;
     background: url('img/kapooBG.jpg');
 }
 
 .bg4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+		height: 100%;
+		width: 100%;
+		background-size: cover;
     background: url('img/lostforeverBG.jpg');
 }
 
 .bg5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+		height: 100%;
+		width: 100%;
+		background-size: cover;
     background: url('img/cloudBG.jpg');
-}
+}*/
 
 div.container	{
     width: 200px;
