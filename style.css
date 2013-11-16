@@ -76,6 +76,11 @@ div.container	{
 		background-color: rgba(0,0,0,.7);
 		padding: 10px;
 		margin: auto 0;
+		border-top: 10px solid rgba(39, 210, 225,.7);
+		}
+
+		.buttonContainer:hover {
+		border-top: 10px solid rgba(39, 210, 225, 1);
 		}
 
 	.sliderButton {
