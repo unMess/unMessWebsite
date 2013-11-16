@@ -23,3 +23,19 @@ div.container	{
     width: 200px;
     margin-top:50%;
 }
+
+	.buttonContainer {
+		cursor: pointer;
+		}
+
+	.sliderButton {
+		display: inline-block;
+		height: 10px;
+		width: 10px;
+		border-radius: 5px;
+		background-color: rgb(255,255,255,.5);
+	}
+
+		.sliderButton:hover {
+			background-color: rgb(255,255,255,1);
+		}
