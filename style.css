@@ -8,54 +8,43 @@ html, body {
 	position: absolute;
 	top: 0px;
 	left: 0px;
+    overflow: hidden;
+}
+.bg > div {
+    background-size: cover;
 }
 
+
 .bg1 {
-		height: 100%;
-		width: 100%;
-		background-size: cover;
+    height: 100%;
+    width: 100%;
     background-image: url('img/voronzBG.jpg');
 }
 
-/*.bg2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-		height: 100%;
-		width: 100%;
-		background-size: contain;
+.bg2 {
+    height: 100%;
+    width: 100%;
     background: url('img/cloudBG.jpg');
 }
 
 .bg3 {
-    position: absolute;
-    top: 0;
-    left: 0;
-		height: 100%;
-		width: 100%;
-		background-size: cover;
+    height: 100%;
+    width: 100%;
     background: url('img/kapooBG.jpg');
 }
 
 .bg4 {
-    position: absolute;
-    top: 0;
-    left: 0;
-		height: 100%;
-		width: 100%;
-		background-size: cover;
+    height: 100%;
+    width: 100%;
     background: url('img/lostforeverBG.jpg');
 }
 
 .bg5 {
-    position: absolute;
-    top: 0;
-    left: 0;
-		height: 100%;
-		width: 100%;
-		background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
     background: url('img/unscrutularBG.jpg');
-}*/
+}
 
 div.container	{
     width: 200px;
