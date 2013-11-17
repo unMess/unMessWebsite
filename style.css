@@ -52,6 +52,12 @@ body {
     background: url('img/unscrutularBG_LQ.jpg');
 }
 
+.bg6 {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background: url('img/liminalBG_LQ.jpg');
+}
 div.container	{
     width: 200px;
     margin: 0 auto;
@@ -60,7 +66,7 @@ div.container	{
 
 .container img {
     width: 200px;
-    margin-top:350px;
+    margin-top:200px;
 		padding: 10px;
 		background-color: rgba(0,0,0,.7);
 }
@@ -90,5 +96,11 @@ div.container	{
 	.sliderButton.active, .sliderButton:hover {
 	    background-color: rgba(39, 210, 225,.7);
     }
+
+/*.aboutContainer {
+	width:200px;
+	font-family: 'Helvetica';
+	color: rgba(39,210,225,1);
+	}*/
 
 		

@@ -20,7 +20,7 @@ $( function() {
 
         setTimeout( function(){
             $thisBg.fadeOut(2000, cycleBackgrounds);
-        }, 10000);
+        }, 7500);
 
         $buttons.eq(i).addClass('active');
 
