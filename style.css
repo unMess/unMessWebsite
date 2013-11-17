@@ -58,6 +58,21 @@ body {
     background-size: cover;
     background: url('img/liminalBG_LQ.jpg');
 }
+
+.bg7 {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background: url('img/quantumBG_LQ.jpg');
+}
+
+.bg8 {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background: url('img/dreamAtlasBG_LQ.jpg');
+}
+
 div.container	{
     width: 200px;
     margin: 0 auto;
