@@ -39,4 +39,16 @@ $( function() {
         });
     });
 
+		var aboutParent = $('.aboutContainer h1');
+		var aboutChild = $('.childAbout');
+		var closeChild = $('.upButton')
+		
+		aboutParent.on( "click.open",function() {
+			aboutChild.slideDown();
+		});
+		closeChild.on( "click.close",function() {
+			aboutChild.slideUp();
+		});
+
 }); 
+
