@@ -104,6 +104,11 @@ div.container	{
 		border-top: 10px solid rgba(39, 210, 225, 1);
 		}
 
+	.slideWrapper {
+		position:relative;
+		margin: 0 auto;
+	}
+
 	.sliderButton {
 		margin: 0 about;
 		display: inline-block;
