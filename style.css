@@ -88,7 +88,7 @@ div.container	{
     width: 200px;
     margin-top:200px;
 		padding: 10px;
-		background-color: rgba(0,0,0,.7);
+		background-color: rgba(0,0,0,.3)
 }
 
 	.buttonContainer {
@@ -152,7 +152,7 @@ div.container	{
 		.aboutHead h1 {
 			color: rgba(255,255,255,1);
 			font-family: 'helvetica';
-			font-size: 12pt;
+			font-size: 10pt;
 			}
 
 			.aboutHead:hover {
