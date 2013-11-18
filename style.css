@@ -47,7 +47,7 @@ body {
 .bg4 {
     height: 100%;
     width: 100%;
-    background: url('img/lostforeverBG_LQ.jpg');
+    background: url('img/spiralAnimalsP1BG_LQ.jpg');
 }
 
 .bg5 {
@@ -76,6 +76,13 @@ body {
     width: 100%;
     background-size: cover;
     background: url('img/dreamAtlasBG_LQ.jpg');
+}
+
+.bg9 {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background: url('img/lostforeverBG_LQ.jpg');
 }
 
 div.container	{
