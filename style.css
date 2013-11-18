@@ -18,13 +18,13 @@ body {
 	top: 0px;
 	left: 0px;
 	background-color: black;
-    overflow: hidden;
+	overflow: hidden;
 }
+
 .bg > div {
     display: none;
     background-size: cover;
 }
-
 
 .bg1 {
     height: 100%;
@@ -97,7 +97,7 @@ div.container	{
 		background-color: rgba(0,0,0,.7);
 		padding: 10px;
 		margin: 0 auto;
-		border-top: 10px solid rgba(39, 210, 225,.7);
+		border-top: 10px solid rgba(39, 210, 225,.3);
 		}
 
 		.buttonContainer:hover {
@@ -117,7 +117,7 @@ div.container	{
 	    background-color: rgba(39, 210, 225,.7);
     }
 
-.aboutContainer {
+/*.aboutContainer {
 	position: relative;
 	margin: 0 auto;
 	margin-top: 25px;
@@ -127,17 +127,43 @@ div.container	{
 	color: rgba(39,210,225,1);
 	background-color: rgba(0,0,0,.7);
 	padding: 10px;
-	}
+	}*/
 
-	.aboutContainer h1 {
-		background-color: rgba(39,210,225,1);
-		color: rgba(0,0,0,1);
-		padding: 10px;
-		font-size: 12pt;
+	.aboutHead {
+		background-color: rgba(0,0,0,.7);
+		border-top: rgba(39,210,225,.3) solid 10px;
+		position: relative;
+		margin: 0 auto;
+		margin-top: 15px;
+		width: 200px;
 		cursor: pointer;
-	}
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top:1px;
+		padding-bottom: 1px;
+		text-align: center;
+		}
+
+		.aboutHead h1 {
+			color: rgba(255,255,255,1);
+			font-family: 'helvetica';
+			font-size: 12pt;
+			}
+
+			.aboutHead:hover {
+				border-top: 10px solid rgba(39,210,225,1);
+			}
 
 		.childAbout	{
+			position: relative;
+			margin: 0 auto;
+			width: 200px;
+			font-family: 'Helvetica';
+			font-size: 10px;
+			color: rgba(39,210,225,1);
+			background-color: rgba(0,0,0,.7);
+			padding: 10px;
+			padding-top: 1px;
 			display:none;	
 		}
 
@@ -148,9 +174,12 @@ div.container	{
 		.upButton {
 			margin: 0 auto;
 			cursor:pointer;
-			color: rgba(39,210,225,.5);
+			color: rgba(255,255,255,1);
+			background-color: rgba(39,210,225,.3);
+			padding-top: 3px;
+			padding-bottom: 3px;
 		}
 
 			.upButton:hover {
-			color: rgba(39,210,225,1);
+			background-color: rgba(39,210,225,1);
 		}

@@ -39,15 +39,15 @@ $( function() {
         });
     });
 
-		var aboutParent = $('.aboutContainer h1');
+		var aboutParent = $('.aboutHead');
 		var aboutChild = $('.childAbout');
 		var closeChild = $('.upButton')
 		
 		aboutParent.on( "click.open",function() {
-			aboutChild.slideDown();
+			aboutChild.slideDown( 1500 );
 		});
 		closeChild.on( "click.close",function() {
-			aboutChild.slideUp();
+			aboutChild.slideUp( 1500 );
 		});
 
 }); 
