@@ -2,11 +2,7 @@ $( function() {
     var winX = $(window).width();
     var winY = $(window).height();
 
-    $('.bg').width(winX);
-    $('.bg').height(winY);
-
-    // fade in first bg on load
-    //$('.bg > div').each( function(index) {
+    $('.bg').width(winX).height(winY);
 
     var $backgrounds = $('.bg > div');
     var $buttons = $('.sliderButton');
@@ -35,20 +31,22 @@ $( function() {
 
         $buttons.eq(i).addClass('active');
         $backgrounds.fadeOut(2000, function(){
+       	// hint: try calling the cycle not within this
+       	// callback function
             cycle()
         });
     });
 
-		var aboutParent = $('.aboutHead');
-		var aboutChild = $('.childAbout');
-		var closeChild = $('.upButton')
+	var aboutParent = $('.aboutHead');
+	var aboutChild = $('.childAbout');
+	var closeChild = $('.upButton')
 		
-		aboutParent.on( "click.open",function() {
-			aboutChild.slideDown( 1500 );
-		});
-		closeChild.on( "click.close",function() {
-			aboutChild.slideUp( 1500 );
-		});
+	aboutParent.on( "click.open",function() {
+		aboutChild.slideDown( 1500 );
+	});
+	closeChild.on( "click.close",function() {
+		aboutChild.slideUp( 1500 );
+	});
 
 }); 
 
